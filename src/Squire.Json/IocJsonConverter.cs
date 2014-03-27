@@ -1,4 +1,4 @@
-﻿namespace Incant.Json
+﻿namespace Squire.Json
 {
     using Microsoft.Practices.ServiceLocation;
     using Newtonsoft.Json;
@@ -7,7 +7,7 @@
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
-    using Incant.Validation;
+    using Squire.Validation;
 
     public class IocJsonConverter : JsonConverter
     {

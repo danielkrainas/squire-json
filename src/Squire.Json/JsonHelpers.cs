@@ -1,4 +1,4 @@
-﻿namespace Incant.Json
+﻿namespace Squire.Json
 {
     using Newtonsoft.Json;
     using System;
@@ -6,8 +6,8 @@
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
-    using Incant.Validation;
-    using Incant.Unhinged;
+    using Squire.Validation;
+    using Squire.Decoupled;
     using Microsoft.Practices.ServiceLocation;
 
     public static class JsonHelpers
