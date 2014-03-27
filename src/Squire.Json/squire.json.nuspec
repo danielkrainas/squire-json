@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>squire.json</id>
+        <version>$version$</version>
+        <title>Squire for Json.Net</title>
+        <authors>Daniel Krainas</authors>
+        <owners />
+        <language>en-US</language>
+        <projectUrl>https://github.com/danielkrainas/squire-json</projectUrl>
+        <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <tags>squire json contrib</tags>
+        <description>Extensions for the Json.Net library.</description>
+        <dependencies>
+          <dependency id="squire.essentials" version="" />
+          <dependency id="squire.decoupled" version="" />
+        </dependencies>
+    </metadata>
+    <files>
+    </files>
+</package>

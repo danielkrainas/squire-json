@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squire.Json", "src\Squire.Json\Squire.Json.csproj", "{CEE5A422-1F30-4195-87A6-3748976DD3E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2483E573-4CC6-47B1-ACFC-9755A63DA68B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squire.Json.Tests", "tests\Squire.Json.Tests\Squire.Json.Tests.csproj", "{E4FAAFFD-2B04-4DDA-9EED-F29A14262AC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EB8DEE52-251E-49A1-8D47-B2754527D7C5}"
+	ProjectSection(SolutionItems) = preProject
+		GlobalAssemblyInfo.cs = GlobalAssemblyInfo.cs
+		Gruntfile.js = Gruntfile.js
+		MIT-LICENSE.txt = MIT-LICENSE.txt
+		package.json = package.json
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEE5A422-1F30-4195-87A6-3748976DD3E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE5A422-1F30-4195-87A6-3748976DD3E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE5A422-1F30-4195-87A6-3748976DD3E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE5A422-1F30-4195-87A6-3748976DD3E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4FAAFFD-2B04-4DDA-9EED-F29A14262AC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4FAAFFD-2B04-4DDA-9EED-F29A14262AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4FAAFFD-2B04-4DDA-9EED-F29A14262AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4FAAFFD-2B04-4DDA-9EED-F29A14262AC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E4FAAFFD-2B04-4DDA-9EED-F29A14262AC0} = {2483E573-4CC6-47B1-ACFC-9755A63DA68B}
+	EndGlobalSection
+EndGlobal
